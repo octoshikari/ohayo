@@ -1,0 +1,37 @@
+{
+  "name": "ohayo",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "lint": "biome lint src",
+    "format": "biome format src",
+    "check": "biome check src",
+    "knip": "knip"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "^1.4.1",
+    "@types/node": "^20.10.6",
+    "knip": "3.9.0",
+    "solid-devtools": "0.29.2",
+    "typescript": "^5.3.3",
+    "vite": "4.5.1",
+    "vite-plugin-solid": "2.8.0"
+  },
+  "dependencies": {
+    "atomic-router": "^0.9.3",
+    "atomic-router-solid": "0.8.1",
+    "dayjs": "^1.11.10",
+    "effector": "^23.1.0",
+    "effector-solid": "^0.23.0",
+    "effector-storage": "^7.0.0",
+    "history": "^5.3.0",
+    "patronum": "^2.1.1",
+    "solid-js": "1.8.7"
+  }
+}
